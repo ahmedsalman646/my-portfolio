@@ -1,0 +1,75 @@
+/* common css start */
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+img {
+    width: 70%;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+img:hover {
+    transform: scale(1.01);
+}
+
+.hireButton {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: bisque;
+    padding: 10px 40px;
+    border-radius: 7px;
+    font-weight: 900;
+    letter-spacing: 1.1px;
+    transition: all .5s ease;
+}
+
+.hireButton:hover {
+    letter-spacing: 1.5px;
+}
+
+/* common css style end */
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+h2 span {
+    display: inline-block;
+    color: brown;
+    text-decoration: underline;
+}
+
+p {
+    color: slategray;
+    margin: 10px 0 25px 0;
+}
+
+
+section {
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.halfWidth {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.buildClimber {
+    text-align: left;
+}
