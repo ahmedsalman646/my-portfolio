@@ -59,7 +59,7 @@ p {
 }
 
 
-section {
+.flexibleContainer {
     display: flex;
     text-align: center;
     margin: 100px 0 100px 0;
@@ -79,4 +79,34 @@ section {
 
 .dreamBigTitle {
     margin: 10px 0 20px 0;
+}
+
+
+.experiencesDetails {
+    text-align: left;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1);
+    margin: 0 5%;
+    padding: 40px 60px;
+    border-radius: 7px;
+    transition: all .5s ease;
+}
+
+.experiencesDetails:hover {
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, .2);
+}
+
+.experiencesDetails h3 {
+    margin: 40px 0 10px 0;
+}
+
+.leftBorder {
+    border-left: 7px solid;
+}
+
+.rightBorder {
+    border-left: 7px solid brown;
+}
+
+footer p {
+    text-align: center;
 }
