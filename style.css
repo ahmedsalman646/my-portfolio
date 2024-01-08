@@ -62,7 +62,7 @@ p {
 section {
     display: flex;
     text-align: center;
-    margin-top: 100px;
+    margin: 100px 0 100px 0;
 }
 
 .halfWidth {
@@ -72,4 +72,11 @@ section {
 
 .buildClimber {
     text-align: left;
+}
+
+
+
+
+.dreamBigTitle {
+    margin: 10px 0 20px 0;
 }
